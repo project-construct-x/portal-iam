@@ -155,7 +155,7 @@
       {
         "id": "494d3e94-f4da-4494-b201-8f655d2cecdf",
         "name": "cx-admin",
-        "description": "Catena-X Admin\n- used for partner invite",
+        "description": "Construct-X Admin\n- used for partner invite",
         "composite": true,
         "composites": {
           "realm": [

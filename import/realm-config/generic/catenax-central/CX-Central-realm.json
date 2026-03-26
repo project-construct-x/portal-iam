@@ -1,7 +1,7 @@
 {
   "id": "CX-Central",
   "realm": "CX-Central",
-  "displayName": "Catena-X Central",
+  "displayName": "Construct-X Central",
   "notBefore": 1660280763,
   "defaultSignatureAlgorithm": "RS256",
   "revokeRefreshToken": true,
@@ -2509,7 +2509,7 @@
         {
           "id": "28fe4b38-aab1-47d8-b35a-8d7b383b7fe9",
           "name": "submit_registration",
-          "description": "User is able to submit the registration to Catena-X",
+          "description": "User is able to submit the registration to Construct-X",
           "composite": false,
           "clientRole": true,
           "containerId": "ea027af2-9a4f-4fd7-833c-5841d8409be1",

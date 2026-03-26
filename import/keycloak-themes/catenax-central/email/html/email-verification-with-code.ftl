@@ -23,7 +23,7 @@
         ${msg("emailVerificationSubject")?no_esc}
     </#if>
     <#if section = "text">
-        ${msg("emailVerificationBodyCodeHtml",code))?no_esc}
+        ${msg("emailVerificationBodyCodeHtml",code)?no_esc}
     </#if>
     <#if section = "linkText">
         ${msg("emailVerificationLinkTextHtml")?no_esc}
