@@ -30,99 +30,103 @@
 </head>
 
 <body class="">
-<div class="">
-    <div id="kc-header" class="">
-        <div id="kc-header-wrapper"
-             class="">Test Company</div>
+    <div style="text-align: center; font-weight: bold; color: rgb(255, 166, 0); margin: 0; padding: 10px; 
+            background: #fff3cd; position: fixed; top: 0; left: 0; right: 0; z-index: 1000;">
+        This is a complete Tractus-X implementation of Release 25-09, but bypassing SD Factory and Clearing House -
+        This is NOT a production environment - it is for Testing purposes only
     </div>
+    <div style="height: 60px;"></div>
     <div class="">
-        <header class="">
-                <h1 id="kc-page-title">        Update password
-</h1>
-      </header>
-      <div id="kc-content">
-        <div id="kc-content-wrapper">
-
-              <div class="alert-warning  pf-m-warning">
-                  <div class="pf-c-alert__icon">
-                      
-                      <span class=""></span>
-                      
-                      
-                  </div>
-                      <span class="">You need to change your password to activate your account.</span>
-              </div>
-
-        <form id="kc-passwd-update-form" class="" action="https://sharedidp-rc.dev.demo.catena-x.net/auth/realms/idp8/login-actions/required-action?session_code=XNVYRo3eoPdMlMrlUUj0iFVZLPZADBcjxHTnQB9D_68&amp;execution=UPDATE_PASSWORD&amp;client_id=central-idp&amp;tab_id=nqQOPk24W9A" method="post">
-            <div class="">
-                <div class="">
-                    <label for="password-new" class="">New Password</label>
-                </div>
-                <div class="">
-                    <div class="">
-                        <input type="password" id="password-new" name="password-new" class=""
-                               autofocus autocomplete="new-password"
-                               aria-invalid=""
-                        />
-                        <button class="" type="button" aria-label="Show password"
-                                aria-controls="password-new"  data-password-toggle
-                                data-icon-show="" data-icon-hide=""
-                                data-label-show="Show password" data-label-hide="Hide password">
-                            <i class="" aria-hidden="true"></i>
-                        </button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="">
-                <div class="">
-                    <label for="password-confirm" class="">Confirm password</label>
-                </div>
-                <div class="">
-                    <div class="">
-                        <input type="password" id="password-confirm" name="password-confirm"
-                               class=""
-                               autocomplete="new-password"
-                               aria-invalid=""
-                        />
-                        <button class="" type="button" aria-label="Show password"
-                                aria-controls="password-confirm"  data-password-toggle
-                                data-icon-show="" data-icon-hide=""
-                                data-label-show="Show password" data-label-hide="Hide password">
-                            <i class="" aria-hidden="true"></i>
-                        </button>
-                    </div>
-
-
-                </div>
-            </div>
-
-            <div class="">
-    <div id="kc-form-options" class="">
+        <div id="kc-header" class="">
+            <div id="kc-header-wrapper" class="">Test Company</div>
+        </div>
         <div class="">
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" id="logout-sessions" name="logout-sessions" value="on" checked>
-                    Sign out from other devices
-                </label>
-            </div>
-        </div>
-    </div>
+            <header class="">
+                <h1 id="kc-page-title"> Update password
+                </h1>
+            </header>
+            <div id="kc-content">
+                <div id="kc-content-wrapper">
 
-                <div id="kc-form-buttons" class="">
-                        <input class="   " type="submit" value="Submit" />
+                    <div class="alert-warning  pf-m-warning">
+                        <div class="pf-c-alert__icon">
+
+                            <span class=""></span>
+
+
+                        </div>
+                        <span class="">You need to change your password to activate your account.</span>
+                    </div>
+
+                    <form id="kc-passwd-update-form" class=""
+                        action="https://sharedidp-rc.dev.demo.catena-x.net/auth/realms/idp8/login-actions/required-action?session_code=XNVYRo3eoPdMlMrlUUj0iFVZLPZADBcjxHTnQB9D_68&amp;execution=UPDATE_PASSWORD&amp;client_id=central-idp&amp;tab_id=nqQOPk24W9A"
+                        method="post">
+                        <div class="">
+                            <div class="">
+                                <label for="password-new" class="">New Password</label>
+                            </div>
+                            <div class="">
+                                <div class="">
+                                    <input type="password" id="password-new" name="password-new" class="" autofocus
+                                        autocomplete="new-password" aria-invalid="" />
+                                    <button class="" type="button" aria-label="Show password"
+                                        aria-controls="password-new" data-password-toggle data-icon-show=""
+                                        data-icon-hide="" data-label-show="Show password"
+                                        data-label-hide="Hide password">
+                                        <i class="" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="">
+                                <label for="password-confirm" class="">Confirm password</label>
+                            </div>
+                            <div class="">
+                                <div class="">
+                                    <input type="password" id="password-confirm" name="password-confirm" class=""
+                                        autocomplete="new-password" aria-invalid="" />
+                                    <button class="" type="button" aria-label="Show password"
+                                        aria-controls="password-confirm" data-password-toggle data-icon-show=""
+                                        data-icon-hide="" data-label-show="Show password"
+                                        data-label-hide="Hide password">
+                                        <i class="" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div id="kc-form-options" class="">
+                                <div class="">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" id="logout-sessions" name="logout-sessions"
+                                                value="on" checked>
+                                            Sign out from other devices
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="kc-form-buttons" class="">
+                                <input class="   " type="submit" value="Submit" />
+                            </div>
+                        </div>
+                    </form>
+                    <script type="module" src="./resources/js/passwordVisibility.js"></script>
+
+
+
                 </div>
             </div>
-        </form>
-        <script type="module" src="./resources/js/passwordVisibility.js"></script>
-
-
 
         </div>
-      </div>
-
     </div>
-  </div>
 </body>
+
 </html>

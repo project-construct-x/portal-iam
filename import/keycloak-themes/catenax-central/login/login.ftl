@@ -20,6 +20,10 @@
 <#import "template.ftl" as layout>
 <@layout.registrationLayout; section>
     <#if section = "header">
+     <div style="text-align: center; font-weight: bold; color: rgb(255, 166, 0); margin: 20px;">
+            This is a complete Tractus-X implementation of Release 25-09, but bypassing SD Factory and Clearing House -
+            This is NOT a production environment - it is for Testing purposes only
+        </div>
 
 <pre id="providers">
 [
